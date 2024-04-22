@@ -14,6 +14,6 @@ def write_todos(todos_local, filepath="store.txt"):  # function with parameters
         todos_local = file_local.writelines(todos_local)
 
 
-print(__name__)   # the name is main inside any file that this is directly called from
+# print(__name__)   # the name is main inside any file that this is directly called from
 if __name__ == "__main__":
     print(get_todos())
